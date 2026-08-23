@@ -1,0 +1,82 @@
+@theme {
+  /* Colors */
+  --color-ink: #101828;
+  --color-canvas: #ffffff;
+  --color-cloud: #f7f8fa;
+  --color-paper: #eef1f5;
+  --color-slate: #475467;
+  --color-silver: #98a2b3;
+  --color-hairline: #e4e7ec;
+  --color-indigo: #4f46e5;
+  --color-emerald: #12b76a;
+  --color-coral: #f04438;
+  --color-amber: #f79009;
+
+  /* Typography */
+  --font-display:
+    "Space Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, sans-serif;
+  --font-body:
+    "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, sans-serif;
+  --font-mono:
+    "IBM Plex Mono", ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo,
+    monospace;
+
+  /* Typography — Scale */
+  --text-caption: 12px;
+  --leading-caption: 1.4;
+  --text-body: 14px;
+  --leading-body: 1.5;
+  --text-subheading: 16px;
+  --leading-subheading: 1.3;
+  --text-heading: 24px;
+  --leading-heading: 1.25;
+  --tracking-heading: -0.24px;
+  --text-heading-lg: 32px;
+  --leading-heading-lg: 1.15;
+  --tracking-heading-lg: -0.32px;
+  --text-display: 48px;
+  --leading-display: 1.05;
+  --tracking-display: -0.48px;
+
+  /* Spacing — renamed to --space-* (not --spacing-*) to avoid colliding
+     with Tailwind v4's reserved --spacing-{n} namespace, which auto-generates
+     numbered utilities like w-4, h-4, p-4, gap-4 using a 0.25rem multiplier.
+     Defining --spacing-4 directly overrides Tailwind's own w-4/h-4/p-4 (16px)
+     with a literal 4px, shrinking every icon and element using those classes. */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-64: 64px;
+  --space-96: 96px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --sidebar-width: 240px;
+  --element-gap: 16px;
+  --page-margin-desktop: 32px;
+  --page-margin-mobile: 20px;
+
+  /* Layout spacing floors — non-negotiable, see DESIGN.md → "Minimum Spacing Floors" */
+  --section-gap: 48px;
+  --section-gap-mobile: 32px;
+  --card-padding: 24px;
+  --card-padding-min: 20px;
+  --grid-gap: 24px;
+  --grid-gap-mobile: 16px;
+  --nav-item-padding-y: 10px;
+  --nav-item-padding-x: 12px;
+  --nav-item-gap: 4px;
+
+  /* Border Radius */
+  --radius-buttons: 8px;
+  --radius-inputs: 10px;
+  --radius-cards: 16px;
+  --radius-modals: 20px;
+  --radius-pills: 999px;
+}
